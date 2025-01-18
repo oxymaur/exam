@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz Results</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #097969;
+      font-family: "Segoe UI Light", Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1em;
+    }
+    a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      background: #fff;
+      color: #097969;
+      margin-top: 1em;
+    }
+    a:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Quiz Completed! 🎉</h1>
+    <p>Thank you for participating, <strong>{{ username }}</strong>!</p>
+    <p>You answered <strong>{{ score }}</strong> out of <strong>{{ total }}</strong> questions correctly.</p>
+    <p>Your score: <strong>{{ percent|round(1) }}%</strong></p>
+    <p>Best score so far: <strong>{{ best_score|round(1) }}%</strong></p>
+    <p>
+      <a href="{{ url_for('index') }}">Return to Start</a>
+    </p>
+  </div>
+</body>
+</html>

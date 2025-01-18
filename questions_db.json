@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "1",
+    "question": "Which of the following is a primary goal of Enterprise Architecture Management (Single choice)?",
+    "choices": {
+      "a": "Reduce design documentation",
+      "b": "Align strategy, business, and IT",
+      "c": "Force all systems into one programming language",
+      "d": "Outsource every business capability"
+    },
+    "correct_answers": ["b"],
+    "explanation": "EAM's central goal is to align strategy, business, and IT."
+  },
+  {
+    "id": "2",
+    "question": "What are two common benefits of establishing an EAM practice (Multiple choice)?",
+    "choices": {
+      "a": "Improved transparency over processes and applications",
+      "b": "Guaranteed 100% ROI in one quarter",
+      "c": "Better decision-making through governance",
+      "d": "Elimination of all business processes"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "EAM improves visibility (a) and supports better governance decisions (c)."
+  },
+  {
+    "id": "3",
+    "question": "In which scenario is EAM most useful (Single choice)?",
+    "choices": {
+      "a": "When the organization has no IT or business processes",
+      "b": "When the organization wants to plan transformations systematically",
+      "c": "When a single developer handles all tasks",
+      "d": "When the organization invests only in short-term projects"
+    },
+    "correct_answers": ["b"],
+    "explanation": "EAM is especially helpful for systematic, large-scale transformation planning."
+  },
+  {
+    "id": "4",
+    "question": "Which two statements typically describe EAM Roadmaps (Multiple choice)?",
+    "choices": {
+      "a": "They detail how to transition from current to target state",
+      "b": "They ignore stakeholder concerns",
+      "c": "They outline short-term and long-term initiatives",
+      "d": "They must never be updated once published"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Roadmaps guide transitions from as-is to to-be and can include both short- and long-term steps."
+  },
+  {
+    "id": "5",
+    "question": "Which of the following best describes the role of EAM governance (Single choice)?",
+    "choices": {
+      "a": "To bypass organizational principles",
+      "b": "To ensure architecture aligns with agreed standards and strategy",
+      "c": "To delegate architecture ownership to junior developers",
+      "d": "To remove the need for stakeholder communication"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Governance ensures architecture decisions follow principles, standards, and strategy."
+  },
+  {
+    "id": "6",
+    "question": "Which two aspects often appear in an EAM framework (Multiple choice)?",
+    "choices": {
+      "a": "Strategy alignment",
+      "b": "Unlimited budget requests",
+      "c": "Architecture layers (business, data, application, technology)",
+      "d": "Prohibiting stakeholder input"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "EAM frameworks typically align strategy (a) and include multi-layered architecture scopes (c)."
+  },
+  {
+    "id": "7",
+    "question": "Which statement about EAM stakeholders is correct (Single choice)?",
+    "choices": {
+      "a": "Only C-level executives matter in EAM",
+      "b": "EAM typically ignores business process owners",
+      "c": "EAM involves both business and IT stakeholders",
+      "d": "EAM belongs solely to external consultants"
+    },
+    "correct_answers": ["c"],
+    "explanation": "EAM requires collaboration from business and IT stakeholders for effective outcomes."
+  },
+  {
+    "id": "8",
+    "question": "Which two deliverables are commonly produced by an EAM initiative (Multiple choice)?",
+    "choices": {
+      "a": "Implementation-ready code in multiple languages",
+      "b": "Target architecture blueprints or models",
+      "c": "Roadmaps for transition projects",
+      "d": "In-game currency for mobile apps"
+    },
+    "correct_answers": ["b","c"],
+    "explanation": "EAM typically produces target-architecture documentation and roadmaps guiding change."
+  },
+  {
+    "id": "9",
+    "question": "Which of the following is a key measure of EAM success (Single choice)?",
+    "choices": {
+      "a": "Ignoring non-functional requirements",
+      "b": "Completing minimal documentation",
+      "c": "Achieving stakeholder alignment and adoption",
+      "d": "Deploying entirely new hardware every year"
+    },
+    "correct_answers": ["c"],
+    "explanation": "A central EAM success factor is stakeholder alignment and adoption of the architecture."
+  },
+  {
+    "id": "10",
+    "question": "Which two statements about EAM scope are correct (Multiple choice)?",
+    "choices": {
+      "a": "EAM covers only hardware infrastructure",
+      "b": "EAM can encompass business processes, data, apps, and tech",
+      "c": "EAM focuses solely on short-term fixes",
+      "d": "EAM may span the entire enterprise architecture"
+    },
+    "correct_answers": ["b","d"],
+    "explanation": "EAM can address business/data/apps/tech (b) and potentially cover the entire enterprise (d)."
+  },
+  {
+    "id": "11",
+    "question": "Which statement about the motivation for EAM is correct (Single choice)?",
+    "choices": {
+      "a": "EAM disregards strategic objectives",
+      "b": "EAM is purely about coding style guides",
+      "c": "EAM helps align enterprise strategy with technology capabilities",
+      "d": "EAM is only relevant to marketing teams"
+    },
+    "correct_answers": ["c"],
+    "explanation": "A major motivation of EAM is bridging strategic and technology capabilities for business value."
+  },
+  {
+    "id": "12",
+    "question": "Which two statements about an EAM repository are correct (Multiple choice)?",
+    "choices": {
+      "a": "It stores architectural artifacts and references",
+      "b": "It must be unstructured and ephemeral",
+      "c": "It can include principles, roadmaps, and policies",
+      "d": "It is typically only used for QA test scripts"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "An EAM repository consolidates architectures, references, principles, roadmaps, etc."
+  },
+  {
+    "id": "13",
+    "question": "Which describes a typical 'as-is' vs 'to-be' approach in EAM (Single choice)?",
+    "choices": {
+      "a": "'As-is' is the final state and 'to-be' is the historical archive",
+      "b": "'To-be' is the desired future architecture; 'as-is' is current baseline",
+      "c": "They are synonyms for the same architecture model",
+      "d": "'As-is' and 'to-be' are purely financial statements"
+    },
+    "correct_answers": ["b"],
+    "explanation": "EAM often defines the current (as-is) baseline and the desired future (to-be) state."
+  },
+  {
+    "id": "14",
+    "question": "Which two statements about measuring EAM success are correct (Multiple choice)?",
+    "choices": {
+      "a": "Standardization and reuse are relevant metrics",
+      "b": "EAM success is trivial to quantify monetarily",
+      "c": "Siloed business units indicate EAM is thriving",
+      "d": "Better cross-department collaboration is a positive sign"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Standardization/reuse and improved collaboration are typical success indicators for EAM."
+  },
+  {
+    "id": "15",
+    "question": "Which statement about EAM transformation projects is correct (Single choice)?",
+    "choices": {
+      "a": "EAM transformations are always big-bang replacements",
+      "b": "EAM transformations can happen incrementally, guided by architecture roadmaps",
+      "c": "EAM transformations exclude business processes",
+      "d": "EAM transformations must only be IT-driven with no business involvement"
+    },
+    "correct_answers": ["b"],
+    "explanation": "EAM transformations are often iterative and guided by architecture roadmaps."
+  },
+  {
+    "id": "16",
+    "question": "Which two statements about stakeholder management in EAM are correct (Multiple choice)?",
+    "choices": {
+      "a": "Stakeholders can include CIO, CFO, business managers, and architects",
+      "b": "EAM excludes non-technical staff",
+      "c": "Effective communication is key to EAM acceptance",
+      "d": "Stakeholder engagement can be entirely optional"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "EAM requires a range of stakeholders and effective communication for buy-in."
+  },
+  {
+    "id": "17",
+    "question": "Which statement about EAM maturity is correct (Single choice)?",
+    "choices": {
+      "a": "EAM maturity is irrelevant for large enterprises",
+      "b": "Maturity models can help assess current EA capabilities and define improvements",
+      "c": "Only IT staff can define EAM maturity",
+      "d": "There's no way to improve EAM processes once defined"
+    },
+    "correct_answers": ["b"],
+    "explanation": "EA maturity models guide assessing capabilities and identifying improvement steps."
+  },
+  {
+    "id": "18",
+    "question": "Which two statements about implementing EAM frameworks are correct (Multiple choice)?",
+    "choices": {
+      "a": "They require adapting the framework to organizational context",
+      "b": "They never allow customization",
+      "c": "They often include defining principles, reference models, and processes",
+      "d": "They forbid any collaboration among teams"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Implementation typically involves tailoring frameworks to the org, plus defining principles/models."
+  },
+  {
+    "id": "19",
+    "question": "Which single factor often drives the need for EAM (Single choice)?",
+    "choices": {
+      "a": "Simple IT landscapes with no redundancy",
+      "b": "Business-IT misalignment or complex/unstructured system landscapes",
+      "c": "All technology already consolidated",
+      "d": "No organizational growth plans"
+    },
+    "correct_answers": ["b"],
+    "explanation": "When business and IT are misaligned or systems are overly complex, EAM becomes crucial."
+  },
+  {
+    "id": "20",
+    "question": "Which two statements about using EAM frameworks (Multiple choice)?",
+    "choices": {
+      "a": "They give best practices for structuring EA projects",
+      "b": "They guarantee complete ROI in one month",
+      "c": "They provide reference architectures or layered approaches",
+      "d": "They forbid integration with known standards or models"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "EAM frameworks offer best practices (a) and layered approaches or reference architectures (c)."
+  },
+  {
+    "id": "21",
+    "question": "Which statement about TOGAF scope is correct (Single choice)?",
+    "choices": {
+      "a": "TOGAF only applies to networking hardware",
+      "b": "TOGAF can address business, data, application, and technology architectures",
+      "c": "TOGAF is exclusive to marketing processes",
+      "d": "TOGAF never includes governance"
+    },
+    "correct_answers": ["b"],
+    "explanation": "TOGAF addresses BDAT (Business, Data, Application, Technology) plus governance and more."
+  },
+  {
+    "id": "22",
+    "question": "Which two statements about TOGAF’s Architecture Development Method (ADM) are correct (Multiple choice)?",
+    "choices": {
+      "a": "It is iterative and cyclical",
+      "b": "It cannot be customized",
+      "c": "It supports continuous requirements management",
+      "d": "It only focuses on solution-level coding patterns"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "ADM is iterative and handles requirements across all phases."
+  },
+  {
+    "id": "23",
+    "question": "Which single role often leads TOGAF-based architecture efforts (Single choice)?",
+    "choices": {
+      "a": "Database Administrator",
+      "b": "Enterprise Architect or Architecture Board",
+      "c": "Junior Developer",
+      "d": "Marketing Executive"
+    },
+    "correct_answers": ["b"],
+    "explanation": "An Enterprise Architect or an Architecture Board typically drives TOGAF-based initiatives."
+  },
+  {
+    "id": "24",
+    "question": "Which two statements about TOGAF deliverables are correct (Multiple choice)?",
+    "choices": {
+      "a": "Architecture Vision is used early in the ADM cycle",
+      "b": "Detailed UML code generation is a mandatory TOGAF deliverable",
+      "c": "Business Scenarios can capture stakeholder needs",
+      "d": "All deliverables must be in ArchiMate notation"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "TOGAF deliverables include Architecture Vision and Business Scenarios, not mandatory code or one notation."
+  },
+  {
+    "id": "25",
+    "question": "Which single statement about the TOGAF Architecture Content Framework is correct (Single choice)?",
+    "choices": {
+      "a": "It excludes the Technology layer",
+      "b": "It includes typical artifacts for Business, Data, Application, and Technology architectures",
+      "c": "It only addresses user interface designs",
+      "d": "It focuses on budgeting and ROI exclusively"
+    },
+    "correct_answers": ["b"],
+    "explanation": "TOGAF’s Content Framework covers artifacts for BDAT architectures, not just UI or financials."
+  },
+  {
+    "id": "26",
+    "question": "Which two reference models does TOGAF often mention (Multiple choice)?",
+    "choices": {
+      "a": "Technical Reference Model (TRM)",
+      "b": "Integrated Information Infrastructure Reference Model (III-RM)",
+      "c": "Financial Market Model",
+      "d": "Game Development Reference Model"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "TOGAF references TRM and III-RM. The others are not standard TOGAF references."
+  },
+  {
+    "id": "27",
+    "question": "Which single statement about TOGAF and modeling languages is true (Single choice)?",
+    "choices": {
+      "a": "TOGAF mandates UML exclusively",
+      "b": "TOGAF mandates ArchiMate exclusively",
+      "c": "TOGAF is flexible about using various modeling notations",
+      "d": "TOGAF does not allow graphical diagrams"
+    },
+    "correct_answers": ["c"],
+    "explanation": "TOGAF doesn’t force a specific notation and generally supports multiple approaches."
+  },
+  {
+    "id": "28",
+    "question": "Which two activities happen in TOGAF’s Preliminary Phase (Multiple choice)?",
+    "choices": {
+      "a": "Defining architecture principles",
+      "b": "Performing final acceptance testing",
+      "c": "Setting up architecture governance structure",
+      "d": "Implementing all technology solutions"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Preliminary Phase sets principles and establishes governance. Testing and tech solutions come later."
+  },
+  {
+    "id": "29",
+    "question": "Which single statement about TOGAF’s Business Architecture (Phase B) is correct (Single choice)?",
+    "choices": {
+      "a": "It deals exclusively with networking hardware",
+      "b": "It addresses business strategy, processes, and organization",
+      "c": "It is where code is merged for production",
+      "d": "It ignores stakeholder requirements"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Phase B focuses on the business aspects such as processes, strategy, and organization."
+  },
+  {
+    "id": "30",
+    "question": "Which two statements about TOGAF Requirements Management are correct (Multiple choice)?",
+    "choices": {
+      "a": "Requirements are managed continuously across ADM phases",
+      "b": "Requirements are only documented once, then discarded",
+      "c": "They feed into each phase’s outputs and deliverables",
+      "d": "They are irrelevant for architecture decisions"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "TOGAF sees requirements as ongoing (a) that feed into each phase (c)."
+  },
+  {
+    "id": "31",
+    "question": "Which single deliverable is explicitly recognized in TOGAF (Single choice)?",
+    "choices": {
+      "a": "Architecture Definition Document",
+      "b": "HTML code for all user interfaces",
+      "c": "Marketing strategy outline",
+      "d": "QA test case scripts"
+    },
+    "correct_answers": ["a"],
+    "explanation": "TOGAF includes the Architecture Definition Document as a key deliverable."
+  },
+  {
+    "id": "32",
+    "question": "Which two statements about the TOGAF Architecture Repository are correct (Multiple choice)?",
+    "choices": {
+      "a": "It organizes architecture artifacts and references",
+      "b": "It’s an unstructured text file with no standard",
+      "c": "It helps store deliverables and building blocks",
+      "d": "It is used only for software version control"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "The repository organizes artifacts (a) and includes building blocks and deliverables (c)."
+  },
+  {
+    "id": "33",
+    "question": "Which single principle underlies TOGAF’s ADM (Single choice)?",
+    "choices": {
+      "a": "Complete the entire model in a pure waterfall style",
+      "b": "Stakeholder concerns can be ignored if time is short",
+      "c": "Iterate the phases and refine architecture incrementally",
+      "d": "No iteration is allowed"
+    },
+    "correct_answers": ["c"],
+    "explanation": "ADM emphasizes iterative refinement across phases to address stakeholder concerns and changes."
+  },
+  {
+    "id": "34",
+    "question": "Which two statements about Architecture Vision (Phase A) in TOGAF are correct (Multiple choice)?",
+    "choices": {
+      "a": "It clarifies scope and stakeholders early",
+      "b": "It finalizes all project budgets immediately",
+      "c": "It sets initial direction for the ADM",
+      "d": "It performs final production releases"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Phase A defines scope, stakeholders, and sets the initial direction for architecture development."
+  },
+  {
+    "id": "35",
+    "question": "Which single aspect of TOGAF emphasizes governance (Single choice)?",
+    "choices": {
+      "a": "It is optional and never recommended",
+      "b": "It is there to micromanage developers only",
+      "c": "It ensures architecture decisions align with principles and roadmaps",
+      "d": "It halts all changes after initial planning"
+    },
+    "correct_answers": ["c"],
+    "explanation": "Governance ensures architecture remains consistent with principles and target roadmaps."
+  },
+  {
+    "id": "36",
+    "question": "Which two statements about TOGAF Building Blocks are correct (Multiple choice)?",
+    "choices": {
+      "a": "They appear in phases B, C, and D when defining target architectures",
+      "b": "They must be used only after the final phase",
+      "c": "They can represent reusable architecture elements",
+      "d": "They always map directly to final system code"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Building Blocks are identified in phases B/C/D for the target architecture and can be reusable assets."
+  },
+  {
+    "id": "37",
+    "question": "Which single statement about TOGAF ADM Phase C is correct (Single choice)?",
+    "choices": {
+      "a": "It focuses only on hardware procurement",
+      "b": "It covers Application and Data architecture",
+      "c": "It finalizes budgets for every project",
+      "d": "It is an optional step and often skipped"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Phase C addresses Data and Application architectures in TOGAF’s ADM."
+  },
+  {
+    "id": "38",
+    "question": "Which two statements about Implementation Governance (TOGAF Phase G) are true (Multiple choice)?",
+    "choices": {
+      "a": "It ensures projects align with the defined architecture",
+      "b": "It is irrelevant to actual project implementations",
+      "c": "It monitors compliance against architectural guidelines",
+      "d": "It only deals with system integration testing"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Implementation Governance (Phase G) ensures alignment to architecture and checks compliance."
+  },
+  {
+    "id": "39",
+    "question": "Which single statement about Phase H (Architecture Change Management) is correct (Single choice)?",
+    "choices": {
+      "a": "It locks the architecture, preventing changes",
+      "b": "It manages updates and new requirements over time",
+      "c": "It is completed before Phase A in the ADM cycle",
+      "d": "It focuses on designing user interfaces"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Phase H manages ongoing changes and updates in response to new requirements or context."
+  },
+  {
+    "id": "40",
+    "question": "Which two readiness factors are relevant in TOGAF (Multiple choice)?",
+    "choices": {
+      "a": "Budget availability",
+      "b": "Political and organizational environment",
+      "c": "Free unlimited cloud usage",
+      "d": "Total absence of business stakeholders"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "Readiness factors include budget, organizational/political context, among others."
+  },
+  {
+    "id": "41",
+    "question": "Which single statement describes ArchiMate’s purpose (Single choice)?",
+    "choices": {
+      "a": "It’s a detailed data modeling language like SQL DDL",
+      "b": "It’s a code generation framework",
+      "c": "It’s a modeling notation for enterprise architecture",
+      "d": "It only applies to VR design"
+    },
+    "correct_answers": ["c"],
+    "explanation": "ArchiMate is primarily used for modeling enterprise architectures in a standardized notation."
+  },
+  {
+    "id": "42",
+    "question": "Which two aspects are core to ArchiMate (Multiple choice)?",
+    "choices": {
+      "a": "Active Structure, Behavior, Passive Structure",
+      "b": "Game engine design, 3D rendering",
+      "c": "Motivation aspects (goals, drivers, requirements)",
+      "d": "Car engine virtualization"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "ArchiMate has Active/Behavior/Passive structure aspects plus Motivation, Strategy, etc."
+  },
+  {
+    "id": "43",
+    "question": "Which single statement about ArchiMate’s layers is correct (Single choice)?",
+    "choices": {
+      "a": "It only has Business and Application layers",
+      "b": "The core is Business, Application, Technology",
+      "c": "It excludes technology from scope",
+      "d": "Strategy and Physical layers are mandatory for all simple models"
+    },
+    "correct_answers": ["b"],
+    "explanation": "ArchiMate’s core layers are Business, Application, and Technology. Additional layers are optional."
+  },
+  {
+    "id": "44",
+    "question": "Which two statements about Business Processes vs. Business Functions in ArchiMate are correct (Multiple choice)?",
+    "choices": {
+      "a": "Both are external behaviors provided to customers",
+      "b": "A Business Process is a flow-based behavior; a Function groups activities by capability",
+      "c": "A Function always triggers a Process directly by default",
+      "d": "Both are internal behaviors in the Business Layer"
+    },
+    "correct_answers": ["b","d"],
+    "explanation": "Business Processes and Functions are both internal behaviors; a Process is flow-based, a Function is capability-based."
+  },
+  {
+    "id": "45",
+    "question": "Which single statement about ArchiMate Business Service is correct (Single choice)?",
+    "choices": {
+      "a": "It’s an external behavior element in the Business Layer",
+      "b": "It’s a passive structure element storing data",
+      "c": "It’s an active structure element representing a role",
+      "d": "It’s an interface for the Technology Layer"
+    },
+    "correct_answers": ["a"],
+    "explanation": "A Business Service is an external behavior element exposing business functionality."
+  },
+  {
+    "id": "46",
+    "question": "Which two statements about ArchiMate Motivation aspect are correct (Multiple choice)?",
+    "choices": {
+      "a": "It covers elements like Goal, Driver, Assessment, Requirement",
+      "b": "It only includes Technology Functions and Processes",
+      "c": "It helps capture the ‘why’ behind architectural decisions",
+      "d": "It must never appear in the same model as Strategy elements"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "The Motivation aspect includes goals, drivers, and requirements, capturing the 'why' of architecture."
+  },
+  {
+    "id": "47",
+    "question": "Which single statement about ArchiMate Data Object in the Application Layer is correct (Single choice)?",
+    "choices": {
+      "a": "It’s an internal behavior element",
+      "b": "It’s a passive structure representing data used by Application Functions",
+      "c": "It’s an active structure representing user roles",
+      "d": "It’s a Business external service"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A Data Object is a passive structure element in the Application Layer holding data."
+  },
+  {
+    "id": "48",
+    "question": "Which two statements about ArchiMate’s Implementation & Migration layer are correct (Multiple choice)?",
+    "choices": {
+      "a": "It includes elements like Work Package, Deliverable, Plateau",
+      "b": "It models physical elements such as Devices and Nodes",
+      "c": "It focuses on planning and executing changes",
+      "d": "It is used only for coding best practices"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Implementation & Migration includes Work Packages, Gaps, Plateaus, focusing on orchestrating change."
+  },
+  {
+    "id": "49",
+    "question": "Which single statement about ArchiMate’s Physical Layer is correct (Single choice)?",
+    "choices": {
+      "a": "It addresses physical devices, equipment, and materials",
+      "b": "It is mandatory for all ArchiMate models",
+      "c": "It only deals with financial metrics",
+      "d": "It is the same as the Motivation aspect"
+    },
+    "correct_answers": ["a"],
+    "explanation": "Physical Layer covers actual physical components like equipment or materials."
+  },
+  {
+    "id": "50",
+    "question": "Which two statements about ArchiMate usage are correct (Multiple choice)?",
+    "choices": {
+      "a": "ArchiMate can be used to describe high-level EA structures across layers",
+      "b": "It provides detailed BPM or UML data modeling",
+      "c": "It can integrate with other notations like BPMN or UML for deeper detail",
+      "d": "It focuses only on motivation and omits behavior elements"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "ArchiMate is often used for high-level EA modeling and can complement BPMN/UML for more detailed process/data views."
+  },
+
+  {
+    "id": "51",
+    "question": "Using the ArchiMate metamodel, how do we directly link a Business Role to a Business Process it performs (Single choice)?",
+    "choices": {
+      "a": "Using an Access relationship",
+      "b": "Using a Derived Aggregation",
+      "c": "Using an Assignment relationship",
+      "d": "Using a Triggering relationship"
+    },
+    "correct_answers": ["c"],
+    "explanation": "A Business Role (active structure) is assigned to (performs) a Business Process (behavior). No derived relationships."
+  },
+  {
+    "id": "52",
+    "question": "Which two relationships can show how a Node and System Software connect, ignoring derived relations (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Triggering or Access",
+      "c": "Serving or Assignment",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Typically, a Node composes or aggregates System Software. (Association can also be used, but often Composition is standard.)"
+  },
+  {
+    "id": "53",
+    "question": "If a Business Service is provided by a Business Role, which direct ArchiMate relationship is used (Single choice)?",
+    "choices": {
+      "a": "Serving",
+      "b": "Composition",
+      "c": "Triggering",
+      "d": "Access"
+    },
+    "correct_answers": ["a"],
+    "explanation": "A Business Role ‘serves’ the Business Service externally. No derived relationship needed."
+  },
+  {
+    "id": "54",
+    "question": "Which two direct relationships can express that a Node hosts or contains System Software (Multiple choice)?",
+    "choices": {
+      "a": "Aggregation or Composition",
+      "b": "Triggering or Realization",
+      "c": "Assignment or Access",
+      "d": "Serving or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Commonly, a Node can contain System Software via Composition/Aggregation or a simpler Association if needed."
+  },
+  {
+    "id": "55",
+    "question": "How do we show that an Application Function writes to a Data Object in ArchiMate, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Using a Realization relationship",
+      "b": "Using an Access relationship",
+      "c": "Using a Triggering relationship",
+      "d": "Using a Composition relationship"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Behavior elements read/write passive structures using Access in ArchiMate’s metamodel."
+  },
+  {
+    "id": "56",
+    "question": "Which two statements about direct ArchiMate relationships are correct (Multiple choice)?",
+    "choices": {
+      "a": "Assignment connects active structure to behavior",
+      "b": "Serving indicates a service is consumed by another element",
+      "c": "Triggering is used only between active structures for containment",
+      "d": "Composition merges two Technology Services into one"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "Assignment = active structure performs behavior, Serving = one element provides service to another."
+  },
+  {
+    "id": "57",
+    "question": "How do we link an Application Service to an Application Component that provides it (Single choice)?",
+    "choices": {
+      "a": "Using a Triggering relationship",
+      "b": "Using an Access relationship",
+      "c": "Using a Serving relationship",
+      "d": "Using a Realization or Assignment relationship"
+    },
+    "correct_answers": ["d"],
+    "explanation": "An Application Component realizes the Application Service (or is assigned to the function that realizes the service)."
+  },
+  {
+    "id": "58",
+    "question": "Which two direct relationships show that a Business Process is subdivided into smaller sub-processes (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Serving or Triggering",
+      "c": "Assignment or Access",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Composition/Aggregation can express a hierarchical relationship among processes; Association is a looser link."
+  },
+  {
+    "id": "59",
+    "question": "If a Business Service uses an Application Service, which direct relationship applies (Single choice)?",
+    "choices": {
+      "a": "Assignment",
+      "b": "Serving",
+      "c": "Access",
+      "d": "Triggering"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A higher-level service is ‘served’ by or uses the lower-level service via the Serving relationship."
+  },
+  {
+    "id": "60",
+    "question": "Which two direct relationships can express that an Application Collaboration is made of Application Components (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Triggering or Serving",
+      "c": "Assignment or Access",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "An Application Collaboration is an active structure that can be composed of or associated with multiple components."
+  },
+  {
+    "id": "61",
+    "question": "How do we show that a Technology Function executes on a Node, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Assignment",
+      "b": "Serving",
+      "c": "Access",
+      "d": "Composition"
+    },
+    "correct_answers": ["a"],
+    "explanation": "A Node (active structure) is assigned to (performs) a Technology Function (behavior)."
+  },
+  {
+    "id": "62",
+    "question": "Which two relationships can indicate that a Technology Service is provided to an Application Component (Multiple choice)?",
+    "choices": {
+      "a": "Serving or Access",
+      "b": "Assignment or Aggregation",
+      "c": "Composition or Triggering",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "‘Serving’ is typical to show a service is used by a consumer; ‘Association’ is a generic link if needed."
+  },
+  {
+    "id": "63",
+    "question": "If an Application Interface is realized by an Application Component, which direct relationship is standard (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Realization",
+      "c": "Assignment",
+      "d": "Serving"
+    },
+    "correct_answers": ["b"],
+    "explanation": "An interface is realized by the component that provides it. This is a direct Realization relationship."
+  },
+  {
+    "id": "64",
+    "question": "Which two direct relationships can be used to indicate that a Technology Service depends on an Artifact for data (Multiple choice)?",
+    "choices": {
+      "a": "Access or Association",
+      "b": "Serving or Composition",
+      "c": "Aggregation or Triggering",
+      "d": "Assignment or Realization"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "Often, the service ‘accesses’ the Artifact, or a simpler ‘association’ indicates usage; sometimes ‘serving’ can show a data-providing service."
+  },
+  {
+    "id": "65",
+    "question": "How do we show that a Business Object is used by a Business Function, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Serving",
+      "b": "Assignment",
+      "c": "Composition",
+      "d": "Access"
+    },
+    "correct_answers": ["d"],
+    "explanation": "A Business Function (behavior) reads/writes a Business Object (passive structure) via ‘Access.’"
+  },
+  {
+    "id": "66",
+    "question": "Which two relationships might express that two Business Processes are performed in sequence (Multiple choice)?",
+    "choices": {
+      "a": "Triggering or Association",
+      "b": "Composition or Aggregation",
+      "c": "Assignment or Serving",
+      "d": "Realization or Access"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "‘Triggering’ can show temporal/causal flow. ‘Association’ is possible for a loose link, or Realization if one behavior realizes a service of another. (Typically ‘Triggering’ is the direct flow.)"
+  },
+  {
+    "id": "67",
+    "question": "If an Application Component reads an Artifact directly, ignoring derived paths, which relationship is relevant (Single choice)?",
+    "choices": {
+      "a": "Triggering",
+      "b": "Access",
+      "c": "Assignment",
+      "d": "Realization"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Active structure reading passive structure uses ‘Access.’"
+  },
+  {
+    "id": "68",
+    "question": "Which two direct relationships often show hierarchical decomposition of Behavior elements (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Assignment or Serving",
+      "c": "Access or Triggering",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Composition/Aggregation can indicate a sub-behavior. Association is a looser link if needed."
+  },
+  {
+    "id": "69",
+    "question": "How do we link a Business Interface to a Business Service it provides, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Realization",
+      "c": "Serving",
+      "d": "Assignment"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A Business Interface typically ‘realizes’ the external Business Service."
+  },
+  {
+    "id": "70",
+    "question": "Which two direct relationships can express that a Business Role uses an Application Service (Multiple choice)?",
+    "choices": {
+      "a": "Serving or Association",
+      "b": "Assignment or Composition",
+      "c": "Access or Aggregation",
+      "d": "Triggering or Realization"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Often a Business Role is ‘served’ by the Application Service or we define a generic ‘association.’ ‘Realization’ can apply if the role is fulfilling or implementing the service, but typically it's ‘Serving.’"
+  },
+  {
+    "id": "71",
+    "question": "If an Application Collaboration is responsible for an Application Function, which direct relationship is used (Single choice)?",
+    "choices": {
+      "a": "Composition",
+      "b": "Assignment",
+      "c": "Triggering",
+      "d": "Access"
+    },
+    "correct_answers": ["b"],
+    "explanation": "An Application Collaboration (active structure) performs the function via an Assignment relationship."
+  },
+  {
+    "id": "72",
+    "question": "Which two relationships can represent that a Business Process consumes an Application Service (Multiple choice)?",
+    "choices": {
+      "a": "Serving or Association",
+      "b": "Access or Realization",
+      "c": "Assignment or Aggregation",
+      "d": "Triggering or Composition"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "Commonly a Business Process is ‘served’ by the Application Service, or we use an ‘association.’ ‘Access’ might be used if the process directly manipulates some artifact from the service."
+  },
+  {
+    "id": "73",
+    "question": "How do we link a Technology Interface to a Technology Service it exposes (Single choice)?",
+    "choices": {
+      "a": "Serving",
+      "b": "Realization",
+      "c": "Composition",
+      "d": "Assignment"
+    },
+    "correct_answers": ["b"],
+    "explanation": "An interface ‘realizes’ the external service it provides."
+  },
+  {
+    "id": "74",
+    "question": "Which two direct relationships show that a Technology Process is broken down into smaller sub-processes (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Triggering or Assignment",
+      "c": "Serving or Realization",
+      "d": "Access or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "A hierarchical decomposition is indicated by Composition/Aggregation or a simpler Association."
+  },
+  {
+    "id": "75",
+    "question": "If a Business Function manipulates a Business Object directly, ignoring derived relationships, which is correct (Single choice)?",
+    "choices": {
+      "a": "They are linked by an Access relationship",
+      "b": "They must be aggregated",
+      "c": "They realize each other",
+      "d": "They are assigned to the same node"
+    },
+    "correct_answers": ["a"],
+    "explanation": "When a function reads/writes a business object, use ‘Access.’"
+  },
+  {
+    "id": "76",
+    "question": "Which two direct relationships can show a Work Package influences or triggers an Implementation Event (Multiple choice)?",
+    "choices": {
+      "a": "Triggering or Association",
+      "b": "Access or Composition",
+      "c": "Assignment or Aggregation",
+      "d": "Realization or Serving"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "In Implementation & Migration, events can be triggered by or associated with a Work Package. Realization can apply if the package implements the event's objective."
+  },
+  {
+    "id": "77",
+    "question": "How do we show that a Technology Service reads/writes an Artifact, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Serving",
+      "b": "Realization",
+      "c": "Access",
+      "d": "Assignment"
+    },
+    "correct_answers": ["c"],
+    "explanation": "The service (behavior) accesses the artifact (passive) via ‘Access.’"
+  },
+  {
+    "id": "78",
+    "question": "Which two direct relationships can express that a Business Interaction triggers another Business Process (Multiple choice)?",
+    "choices": {
+      "a": "Triggering or Association",
+      "b": "Assignment or Serving",
+      "c": "Access or Realization",
+      "d": "Aggregation or Composition"
+    },
+    "correct_answers": ["a","c"],
+    "explanation": "Triggering is used for sequential flow. Association is a looser link, Realization typically not used for flow. (Often just ‘Triggering’ is enough, but association can also show a weaker link.)"
+  },
+  {
+    "id": "79",
+    "question": "If an Application Component uses a Data Object, ignoring derived relationships, which relationship is relevant (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Serving",
+      "c": "Assignment",
+      "d": "Composition"
+    },
+    "correct_answers": ["a"],
+    "explanation": "Application Component reading/writing a Data Object is an Access relationship."
+  },
+  {
+    "id": "80",
+    "question": "Which two direct relationships might indicate that a Work Package realizes certain Deliverables (Multiple choice)?",
+    "choices": {
+      "a": "Realization or Association",
+      "b": "Triggering or Access",
+      "c": "Assignment or Serving",
+      "d": "Composition or Aggregation"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "A Work Package can realize or be composed of Deliverables in Implementation & Migration."
+  },
+  {
+    "id": "81",
+    "question": "How do we express that a Business Interface realizes a Business Service (Single choice)?",
+    "choices": {
+      "a": "Composition",
+      "b": "Realization",
+      "c": "Assignment",
+      "d": "Serving"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A Business Interface (active structure) realizes the external Business Service."
+  },
+  {
+    "id": "82",
+    "question": "Which two direct relationships show an Application Service is used by a Business Role (Multiple choice)?",
+    "choices": {
+      "a": "Serving or Association",
+      "b": "Composition or Aggregation",
+      "c": "Assignment or Access",
+      "d": "Triggering or Realization"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "The role is served by the application service, or an association can indicate usage. Realization if the role implements something for that service is less typical. Typically 'Serving' is key."
+  },
+  {
+    "id": "83",
+    "question": "If an Application Process triggers an Application Function, ignoring derived relationships, which relationship is used (Single choice)?",
+    "choices": {
+      "a": "Assignment",
+      "b": "Triggering",
+      "c": "Realization",
+      "d": "Access"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Triggering indicates a flow or temporal sequence from one behavior element to another."
+  },
+  {
+    "id": "84",
+    "question": "Which two direct relationships might indicate a Path is composed of Communication Networks (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Assignment or Serving",
+      "c": "Triggering or Access",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "A Path can be composed of multiple networks, or they can be connected via an association in the Technology layer."
+  },
+  {
+    "id": "85",
+    "question": "How do we show a Business Event initiates a Business Process directly (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Assignment",
+      "c": "Triggering",
+      "d": "Composition"
+    },
+    "correct_answers": ["c"],
+    "explanation": "An Event triggers a process in the business layer. 'Triggering' is used for causal flow."
+  },
+  {
+    "id": "86",
+    "question": "Which two direct relationships might express that a Node provides a Technology Service to an Application Component (Multiple choice)?",
+    "choices": {
+      "a": "Serving or Association",
+      "b": "Composition or Aggregation",
+      "c": "Assignment or Access",
+      "d": "Triggering or Realization"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "A Node can serve an Application Component via a Technology Service. ‘Association’ is also possible as a weaker link; sometimes 'Realization' if the Node implements the service."
+  },
+  {
+    "id": "87",
+    "question": "If a Business Function uses a Business Object, ignoring derived paths, which relationship is standard (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Serving",
+      "c": "Triggering",
+      "d": "Aggregation"
+    },
+    "correct_answers": ["a"],
+    "explanation": "A function reading/writing an object is an Access relationship."
+  },
+  {
+    "id": "88",
+    "question": "Which two direct relationships can express that a Technology Interface is part of a Node’s structure (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Serving or Access",
+      "c": "Assignment or Triggering",
+      "d": "Association or Realization"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "A Node can compose or aggregate an interface. Alternatively, a simpler association might link them. Realization is typically used from an interface to a service or from an active structure to the interface."
+  },
+  {
+    "id": "89",
+    "question": "How do we link a Work Package to the Deliverable it produces, ignoring derived relationships (Single choice)?",
+    "choices": {
+      "a": "Access",
+      "b": "Serving",
+      "c": "Realization",
+      "d": "Composition"
+    },
+    "correct_answers": ["c"],
+    "explanation": "A Work Package ‘realizes’ the Deliverable in the Implementation & Migration layer."
+  },
+  {
+    "id": "90",
+    "question": "Which two direct relationships might show that an Application Collaboration collectively performs an Application Interaction (Multiple choice)?",
+    "choices": {
+      "a": "Assignment or Aggregation",
+      "b": "Composition or Realization",
+      "c": "Access or Serving",
+      "d": "Triggering or Association"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "The Collaboration (active structure) can be assigned to an Interaction (behavior) or composed with it. Realization is less typical but can be used if the collaboration implements that interaction directly."
+  },
+  {
+    "id": "91",
+    "question": "If a Business Interaction triggers a Business Event, which direct relationship is suitable (Single choice)?",
+    "choices": {
+      "a": "Assignment",
+      "b": "Triggering",
+      "c": "Access",
+      "d": "Realization"
+    },
+    "correct_answers": ["b"],
+    "explanation": "Behavior elements can trigger an Event in the business layer. So 'Triggering' is correct."
+  },
+  {
+    "id": "92",
+    "question": "Which two direct relationships might indicate that an Artifact is deployed on a Node (Multiple choice)?",
+    "choices": {
+      "a": "Deployment or Association",
+      "b": "Composition or Access",
+      "c": "Assignment or Serving",
+      "d": "Triggering or Aggregation"
+    },
+    "correct_answers": ["a","b"],
+    "explanation": "Typically, 'Deployment' is used. Composition can also show the node encloses the artifact. An association is a weaker link. (ArchiMate 3 introduced the Deployment relationship for Node–Artifact.)"
+  },
+  {
+    "id": "93",
+    "question": "How do we show that a Technology Service uses another Technology Service without deriving new relationships (Single choice)?",
+    "choices": {
+      "a": "Triggering",
+      "b": "Serving",
+      "c": "Assignment",
+      "d": "Composition"
+    },
+    "correct_answers": ["b"],
+    "explanation": "One service can be 'served' by another, indicating consumption or usage of that external behavior."
+  },
+  {
+    "id": "94",
+    "question": "Which two direct relationships can express that a Business Role is composed of multiple sub-roles (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Serving or Assignment",
+      "c": "Access or Realization",
+      "d": "Triggering or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Composition/Aggregation can show hierarchical structure. Alternatively, an association might link them in a weaker fashion."
+  },
+  {
+    "id": "95",
+    "question": "If an Implementation Event triggers a Work Package to start, which direct relationship is used (Single choice)?",
+    "choices": {
+      "a": "Triggering",
+      "b": "Assignment",
+      "c": "Serving",
+      "d": "Access"
+    },
+    "correct_answers": ["a"],
+    "explanation": "Events triggering packages in Implementation & Migration is handled by 'Triggering.'"
+  },
+  {
+    "id": "96",
+    "question": "Which two direct relationships can show that multiple Business Objects form a bigger composite object (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Triggering or Serving",
+      "c": "Assignment or Access",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Composition or Aggregation indicates a whole-part relationship among passive structures. Association can also link them more loosely."
+  },
+  {
+    "id": "97",
+    "question": "How do we express that an Application Service is read/written by an Application Function (Single choice)?",
+    "choices": {
+      "a": "Triggering",
+      "b": "Access",
+      "c": "Assignment",
+      "d": "Realization"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A function can ‘access’ the application service’s data or interface, though typically the service is external behavior. However, if we treat the service as a passive 'object' in this context, 'Access' is valid."
+  },
+  {
+    "id": "98",
+    "question": "Which two direct relationships might indicate that a Business Process is realized by a set of sub-processes (Multiple choice)?",
+    "choices": {
+      "a": "Composition or Aggregation",
+      "b": "Serving or Assignment",
+      "c": "Triggering or Access",
+      "d": "Realization or Association"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "Composition/Aggregation can show sub-process structure; association is a weaker link. 'Realization' is used if the sub-processes collectively realize a parent service or function."
+  },
+  {
+    "id": "99",
+    "question": "If a Technology Interface is realized by a Node, ignoring derived relationships, which is correct (Single choice)?",
+    "choices": {
+      "a": "Serving",
+      "b": "Realization",
+      "c": "Assignment",
+      "d": "Access"
+    },
+    "correct_answers": ["b"],
+    "explanation": "A Node can realize the interface it provides to external consumers in the Technology layer."
+  },
+  {
+    "id": "100",
+    "question": "Which two direct relationships show that an Application Collaboration is assigned to an Application Interaction (Multiple choice)?",
+    "choices": {
+      "a": "Assignment or Association",
+      "b": "Serving or Composition",
+      "c": "Triggering or Access",
+      "d": "Aggregation or Realization"
+    },
+    "correct_answers": ["a","d"],
+    "explanation": "An Application Collaboration can be assigned to (perform) an Application Interaction. Aggregation/Composition might structure them, or an association can link them, but often 'Assignment' is key."
+  }
+]

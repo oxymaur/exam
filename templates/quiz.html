@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EA Quiz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #097969;
+      font-family: "Segoe UI Light", Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .question-text {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    form {
+      display: inline-block;
+      margin: 0.5em 0;
+    }
+    label {
+      display: block;
+      text-align: left;
+      margin: 0.4em 0;
+    }
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 0.5em;
+    }
+    button {
+      font-size: 1rem;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      background: #fff;
+      color: #097969;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+    button:hover {
+      background-color: #f0f0f0;
+    }
+    .feedback {
+      margin-top: 1em;
+      font-size: 1.2rem;
+    }
+    .feedback.correct {
+      color: #0dfd0d;
+    }
+    .feedback.incorrect {
+      color: #ff6565;
+    }
+    .explanation {
+      margin-top: 0.5em;
+      font-size: 1rem;
+      color: #fff;
+    }
+    .score {
+      margin-top: 1em;
+      font-size: 1.1rem;
+    }
+    .disabled-options {
+      color: #b4b4b4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Question {{ index }} / {{ total }} 📝</h2>
+    <p class="question-text">{{ question.question }}</p>
+
+    {% set multiple = "(multiple choice)" in question.question.lower() %}
+
+    <!-- If user has already submitted, show correct/incorrect feedback -->
+    {% if feedback.submitted %}
+      {% if feedback.is_correct %}
+        <div class="feedback correct">✅ Correct!</div>
+      {% else %}
+        <div class="feedback incorrect">❌ Incorrect!</div>
+      {% endif %}
+      <p class="explanation">Explanation: {{ feedback.explanation }}</p>
+    {% endif %}
+
+    <!-- SUBMIT ANSWER FORM -->
+    <form method="POST">
+      {% if not feedback.submitted %}
+        <!-- Not yet submitted: show actual answer inputs -->
+        {% if multiple %}
+          <!-- multiple choice => checkbox -->
+          {% for key, text in question.choices.items() %}
+            <label>
+              <input type="checkbox" name="selected_options" value="{{ key }}">
+              {{ key.upper() }}) {{ text }}
+            </label>
+          {% endfor %}
+        {% else %}
+          <!-- single choice => radio -->
+          {% for key, text in question.choices.items() %}
+            <label>
+              <input type="radio" name="selected_options" value="{{ key }}">
+              {{ key.upper() }}) {{ text }}
+            </label>
+          {% endfor %}
+        {% endif %}
+        <br>
+        <button type="submit" name="submit_answer">Submit Answer</button>
+
+      {% else %}
+        <!-- Already submitted: disable answer inputs -->
+        <div class="disabled-options" style="text-align:left; display:inline-block;">
+          {% if multiple %}
+            {% for key, text in question.choices.items() %}
+              <label>
+                <input type="checkbox" disabled> {{ key.upper() }}) {{ text }}
+              </label><br>
+            {% endfor %}
+          {% else %}
+            {% for key, text in question.choices.items() %}
+              <label>
+                <input type="radio" disabled> {{ key.upper() }}) {{ text }}
+              </label><br>
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </form>
+
+    {% if feedback.submitted %}
+      <!-- NEXT QUESTION button only appears after submission -->
+      <form method="POST" style="margin-top: 1em;">
+        <button type="submit" name="next_question">Next Question ➡️</button>
+      </form>
+    {% endif %}
+
+    <p class="score">Current Score: {{ score }}</p>
+  </div>
+</body>
+</html>

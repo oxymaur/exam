@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to the EA Quiz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #097969;
+      font-family: "Segoe UI Light", Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+    }
+    form {
+      margin-top: 1.5em;
+    }
+    input[type="text"] {
+      font-size: 1rem;
+      padding: 0.5em;
+      border: none;
+      border-radius: 4px;
+      margin-right: 0.5em;
+    }
+    input[type="submit"] {
+      font-size: 1rem;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      background: #fff;
+      color: #097969;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #f0f0f0;
+    }
+    .scores-title {
+      font-size: 1.5rem;
+      margin-top: 2em;
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.5em 0;
+    }
+    .messages {
+      color: yellow;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Welcome to the EA Quiz! 🚀</h1>
+    <p>Test your knowledge on Enterprise Architecture topics.</p>
+
+    <form action="{{ url_for('start_quiz') }}" method="POST">
+      <label for="username">Enter Your Name:</label>
+      <input type="text" name="username" id="username" required>
+      <input type="submit" value="Start Quiz">
+    </form>
+
+    <h2 class="scores-title">Top 5 Scores</h2>
+    {% if top_scores %}
+      <ul>
+        {% for item in top_scores %}
+          <li>⭐ {{ item.name }} - {{ item.score|round(1) }}%</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No scores yet.</p>
+    {% endif %}
+    
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="messages">
+          {% for message in messages %}
+            <p>{{ message }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+  </div>
+</body>
+</html>
