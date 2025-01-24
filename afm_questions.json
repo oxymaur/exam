@@ -1,0 +1,482 @@
+[
+  {
+    "id": "1",
+    "question": "Was versteht man unter einem factorial design? (single choice)",
+    "choices": {
+      "a": "Ein Design mit mehreren unabhängigen Variablen.",
+      "b": "Ein Design mit nur einer abhängigen Variablen.",
+      "c": "Ein Design ohne zufällige Zuweisung.",
+      "d": "Ein Design ohne Kontrollgruppe."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Ein factorial design untersucht die Wirkung mehrerer unabhängiger Variablen."
+  },
+  {
+    "id": "2",
+    "question": "Welche Prinzipien sind zentral für Human-Computer Interaction (HCI)? (multiple choice)",
+    "choices": {
+      "a": "Kognitive Belastung minimieren.",
+      "b": "Benutzerfreundlichkeit priorisieren.",
+      "c": "Komplexe Steuerungssysteme fördern.",
+      "d": "Visuelle Konsistenz sicherstellen."
+    },
+    "correct_answers": ["a", "b", "d"],
+    "explanation": "HCI konzentriert sich auf Benutzerfreundlichkeit, reduzierte kognitive Belastung und visuelle Konsistenz."
+  },
+  {
+    "id": "3",
+    "question": "Was ist der Zweck eines Manipulationschecks in Experimenten? (single choice)",
+    "choices": {
+      "a": "Die Effektivität der unabhängigen Variablen zu messen.",
+      "b": "Die Generalisierbarkeit der Ergebnisse zu prüfen.",
+      "c": "Die Kontrolle von Störfaktoren zu gewährleisten.",
+      "d": "Zu überprüfen, ob die Manipulation wie geplant funktioniert hat."
+    },
+    "correct_answers": ["d"],
+    "explanation": "Ein Manipulationscheck prüft, ob die unabhängige Variable erfolgreich manipuliert wurde."
+  },
+  {
+    "id": "4",
+    "question": "Welche Vorteile bietet Triangulation in der qualitativen Forschung? (multiple choice)",
+    "choices": {
+      "a": "Erhöhte Glaubwürdigkeit.",
+      "b": "Kombination von Datenquellen.",
+      "c": "Reduzierte Komplexität.",
+      "d": "Minimierung von Bias."
+    },
+    "correct_answers": ["a", "b", "d"],
+    "explanation": "Triangulation verbessert die Glaubwürdigkeit, minimiert Bias und kombiniert Datenquellen."
+  },
+  {
+    "id": "5",
+    "question": "Was ist ein Laborexperiment? (single choice)",
+    "choices": {
+      "a": "Ein Experiment unter streng kontrollierten Bedingungen.",
+      "b": "Ein Experiment ohne Kontrollgruppe.",
+      "c": "Ein Experiment in realistischen Umgebungen.",
+      "d": "Ein Experiment mit qualitativen Daten."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Laborexperimente bieten streng kontrollierte Bedingungen für präzise Ergebnisse."
+  },
+  {
+    "id": "6",
+    "question": "Was sind die vier Phasen des User-Centered Design (UCD)? (multiple choice)",
+    "choices": {
+      "a": "Nutzerkontext beschreiben.",
+      "b": "Anforderungen definieren.",
+      "c": "Lösungen entwickeln.",
+      "d": "Ergebnisse vergleichen."
+    },
+    "correct_answers": ["a", "b", "c"],
+    "explanation": "Die Phasen des UCD umfassen Kontextanalyse, Anforderungsdefinition und Lösungsentwicklung."
+  },
+  {
+    "id": "7",
+    "question": "Welche Arten von Validität gibt es in der Forschung? (multiple choice)",
+    "choices": {
+      "a": "Interne Validität.",
+      "b": "Externe Validität.",
+      "c": "Theoretische Validität.",
+      "d": "Praktische Validität."
+    },
+    "correct_answers": ["a", "b"],
+    "explanation": "Interne und externe Validität sind zentrale Konzepte in der Forschung."
+  },
+  {
+    "id": "8",
+    "question": "Welche Faktoren fördern die Usability eines Systems? (multiple choice)",
+    "choices": {
+      "a": "Intuitive Navigation.",
+      "b": "Langsame Ladezeiten.",
+      "c": "Konsistentes Design.",
+      "d": "Fehlertoleranz."
+    },
+    "correct_answers": ["a", "c", "d"],
+    "explanation": "Usability wird durch intuitive Navigation, konsistentes Design und Fehlertoleranz gefördert."
+  },
+  {
+    "id": "9",
+    "question": "Was ist das Ziel der qualitativen Inhaltsanalyse? (single choice)",
+    "choices": {
+      "a": "Erhebung von quantitativen Daten.",
+      "b": "Systematische Analyse von Kommunikationsinhalten.",
+      "c": "Hypothesentests durchführen.",
+      "d": "Daten ohne Kontext analysieren."
+    },
+    "correct_answers": ["b"],
+    "explanation": "Die qualitative Inhaltsanalyse dient der Analyse von Kommunikationsinhalten im Kontext."
+  },
+  {
+    "id": "10",
+    "question": "Was bedeutet 'Reduce Short-Term Memory Load' in HCI? (single choice)",
+    "choices": {
+      "a": "Minimierung der Gedächtnisbelastung durch sichtbare Anweisungen.",
+      "b": "Speicherplatz eines Systems optimieren.",
+      "c": "Kurzzeitgedächtnis des Benutzers trainieren.",
+      "d": "Vermeidung von Benutzerfehlern."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Die Regel minimiert die Gedächtnisbelastung durch Erkennung statt Erinnerung."
+  },
+  {
+    "id": "11",
+    "question": "Was ist ein Experiment mit Between-Subjects-Design? (single choice)",
+    "choices": {
+      "a": "Ein Design, bei dem verschiedene Gruppen unterschiedliche Bedingungen erhalten.",
+      "b": "Ein Design, bei dem alle Teilnehmer denselben Bedingungen ausgesetzt sind.",
+      "c": "Ein Design, das ohne Kontrolle durchgeführt wird.",
+      "d": "Ein Design, das nur qualitative Daten analysiert."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Im Between-Subjects-Design werden unterschiedliche Bedingungen verschiedenen Gruppen zugewiesen."
+  },
+  {
+    "id": "12",
+    "question": "Was versteht man unter Randomisierung in der Forschung? (single choice)",
+    "choices": {
+      "a": "Zufällige Zuordnung von Probanden zu experimentellen Bedingungen.",
+      "b": "Eine Methode zur Hypothesenbildung.",
+      "c": "Ein statistischer Test zur Datenanalyse.",
+      "d": "Ein qualitativer Ansatz zur Befragung."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Randomisierung sorgt für Zufälligkeit in der Zuweisung von Probanden."
+  },
+  {
+    "id": "13",
+    "question": "Welche Vorteile bieten Fokusgruppen in der qualitativen Forschung? (multiple choice)",
+    "choices": {
+      "a": "Interaktive Diskussionen.",
+      "b": "Einblicke in Gruppendynamik.",
+      "c": "Hohe Generalisierbarkeit.",
+      "d": "Flexibilität bei der Analyse."
+    },
+    "correct_answers": ["a", "b"],
+    "explanation": "Fokusgruppen bieten interaktive Diskussionen und ermöglichen Einblicke in Gruppendynamik."
+  },
+  {
+    "id": "14",
+    "question": "Was versteht man unter interner Validität? (single choice)",
+    "choices": {
+      "a": "Die Genauigkeit, mit der eine unabhängige Variable eine abhängige Variable beeinflusst.",
+      "b": "Die Generalisierbarkeit der Ergebnisse auf andere Kontexte.",
+      "c": "Die Fähigkeit, qualitative Daten zu analysieren.",
+      "d": "Die Wiederholbarkeit eines Experiments."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Interne Validität beschreibt die Genauigkeit der kausalen Beziehung zwischen Variablen."
+  },
+  {
+    "id": "15",
+    "question": "Welche Methode wird häufig in der quantitativen Forschung verwendet? (single choice)",
+    "choices": {
+      "a": "Statistische Tests.",
+      "b": "Fokusgruppen.",
+      "c": "Interviews.",
+      "d": "Beobachtungsstudien."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Statistische Tests sind ein wesentlicher Bestandteil der quantitativen Forschung."
+  },
+  {
+    "id": "16",
+    "question": "Was ist ein Beispiel für eine unabhängige Variable? (single choice)",
+    "choices": {
+      "a": "Die Art der Beleuchtung in einem Raum.",
+      "b": "Die gemessene Reaktionszeit der Teilnehmer.",
+      "c": "Die Ergebnisse eines Tests.",
+      "d": "Die Antworten in einem Fragebogen."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Unabhängige Variablen werden manipuliert, um ihre Auswirkungen zu untersuchen."
+  },
+  {
+    "id": "17",
+    "question": "Was ist der Hauptvorteil der Randomisierung in Experimenten? (single choice)",
+    "choices": {
+      "a": "Die Kontrolle von Störfaktoren.",
+      "b": "Die Erhöhung der Stichprobengröße.",
+      "c": "Die Verbesserung der Datenqualität.",
+      "d": "Die Minimierung der Kosten."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Randomisierung hilft, Störfaktoren zu kontrollieren und die interne Validität zu verbessern."
+  },
+  {
+    "id": "18",
+    "question": "Was beschreibt externe Validität? (single choice)",
+    "choices": {
+      "a": "Die Generalisierbarkeit der Ergebnisse auf andere Kontexte.",
+      "b": "Die Präzision der Messungen in einem Experiment.",
+      "c": "Die Konsistenz der Datenerhebung.",
+      "d": "Die Verwendung von Kontrollgruppen."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Externe Validität beschreibt die Übertragbarkeit der Ergebnisse auf andere Populationen und Situationen."
+  },
+  {
+    "id": "19",
+    "question": "Welche Art von Daten wird typischerweise in qualitativen Studien gesammelt? (multiple choice)",
+    "choices": {
+      "a": "Interviews.",
+      "b": "Fokusgruppen.",
+      "c": "Numerische Statistiken.",
+      "d": "Beobachtungen."
+    },
+    "correct_answers": ["a", "b", "d"],
+    "explanation": "Qualitative Studien konzentrieren sich auf Interviews, Fokusgruppen und Beobachtungen."
+  },
+  {
+    "id": "20",
+    "question": "Was ist eine Kontrollgruppe in einem Experiment? (single choice)",
+    "choices": {
+      "a": "Eine Gruppe, die nicht der unabhängigen Variable ausgesetzt ist.",
+      "b": "Eine Gruppe, die die Ergebnisse analysiert.",
+      "c": "Eine Gruppe, die nur Beobachtungen durchführt.",
+      "d": "Eine Gruppe ohne Teilnehmer."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Die Kontrollgruppe dient als Referenzpunkt und wird nicht der Manipulation ausgesetzt."
+  },
+  {
+    "id": "21",
+    "question": "Was ist der Unterschied zwischen qualitativer und quantitativer Forschung? (multiple choice)",
+    "choices": {
+      "a": "Qualitative Forschung untersucht das 'Warum' und 'Wie'.",
+      "b": "Quantitative Forschung fokussiert auf Zahlen und Statistiken.",
+      "c": "Qualitative Forschung verwendet numerische Daten.",
+      "d": "Quantitative Forschung nutzt Interviews und Beobachtungen."
+    },
+    "correct_answers": ["a", "b"],
+    "explanation": "Qualitative Forschung konzentriert sich auf tiefere Einblicke, während quantitative Forschung numerische Analysen verwendet."
+  },
+  {
+    "id": "22",
+    "question": "Was versteht man unter einer abhängigen Variable? (single choice)",
+    "choices": {
+      "a": "Eine Variable, die gemessen wird und von der unabhängigen Variable beeinflusst wird.",
+      "b": "Eine konstante Variable im Experiment.",
+      "c": "Eine Variable, die zufällig generiert wird.",
+      "d": "Eine Variable, die für die Stichprobenauswahl verwendet wird."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Die abhängige Variable ist das Ergebnis, das gemessen wird, um die Auswirkungen der unabhängigen Variable zu analysieren."
+  },
+  {
+    "id": "23",
+    "question": "Welche Schritte umfasst der Forschungsprozess? (multiple choice)",
+    "choices": {
+      "a": "Hypothesenformulierung.",
+      "b": "Datenerhebung.",
+      "c": "Datenanalyse.",
+      "d": "Ergebnisinterpretation."
+    },
+    "correct_answers": ["a", "b", "c", "d"],
+    "explanation": "Der Forschungsprozess umfasst alle Schritte von der Hypothesenformulierung bis zur Interpretation der Ergebnisse."
+  },
+  {
+    "id": "24",
+    "question": "Was ist ein Beispiel für ein Störfaktor in Experimenten? (single choice)",
+    "choices": {
+      "a": "Unterschiedliche Temperaturen im Raum.",
+      "b": "Die unabhängige Variable.",
+      "c": "Die abhängige Variable.",
+      "d": "Die Verwendung von Kontrollgruppen."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Unterschiedliche Temperaturen können die Ergebnisse eines Experiments beeinflussen und gelten als Störfaktor."
+  },
+  {
+    "id": "25",
+    "question": "Was beschreibt der Begriff 'Reliabilität' in der Forschung? (single choice)",
+    "choices": {
+      "a": "Die Konsistenz der Messergebnisse.",
+      "b": "Die Übertragbarkeit der Ergebnisse.",
+      "c": "Die Bedeutung der Hypothesen.",
+      "d": "Die Manipulation der Variablen."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Reliabilität bezieht sich auf die Konsistenz und Wiederholbarkeit von Messungen."
+  },
+  {
+    "id": "26",
+    "question": "Welche Datenquellen werden in der Triangulation kombiniert? (multiple choice)",
+    "choices": {
+      "a": "Primärdaten.",
+      "b": "Sekundärdaten.",
+      "c": "Qualitative Daten.",
+      "d": "Quantitative Daten."
+    },
+    "correct_answers": ["a", "b", "c", "d"],
+    "explanation": "Die Triangulation kombiniert mehrere Datenquellen, um die Glaubwürdigkeit der Ergebnisse zu erhöhen."
+  },
+  {
+    "id": "27",
+    "question": "Was ist ein Quasi-Experiment? (single choice)",
+    "choices": {
+      "a": "Ein Experiment ohne zufällige Zuweisung von Probanden.",
+      "b": "Ein Experiment mit vollständig kontrollierten Bedingungen.",
+      "c": "Ein Experiment, das nur qualitative Daten verwendet.",
+      "d": "Ein Experiment ohne unabhängige Variablen."
+    },
+    "correct_answers": ["a"],
+    "explanation": "Quasi-Experimente zeichnen sich durch das Fehlen zufälliger Zuweisung aus."
+  },
+  {
+    "id": "28",
+    "question": "Welche Vorteile bietet die Verwendung einer Stichprobe? (multiple choice)",
+    "choices": {
+      "a": "Kosteneffektivität.",
+      "b": "Zeiteinsparung.",
+      "c": "Repräsentativität der Ergebnisse.",
+      "d": "Minimierung von Fehlern."
+    },
+    "correct_answers": ["a", "b", "c"],
+    "explanation": "Die Verwendung einer Stichprobe spart Ressourcen und kann repräsentative Ergebnisse liefern."
+  },
+    {
+      "id": "29",
+      "question": "Was beschreibt der Begriff 'Operationalisierung' in der Forschung? (single choice)",
+      "choices": {
+        "a": "Die Übersetzung von Konzepten in messbare Variablen.",
+        "b": "Die Durchführung von Experimenten.",
+        "c": "Die Interpretation von Ergebnissen.",
+        "d": "Die Kombination von Datenquellen."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Operationalisierung bedeutet, Konzepte in messbare Variablen zu übersetzen, um sie untersuchen zu können."
+    },
+    {
+      "id": "30",
+      "question": "Was bedeutet der Begriff 'Hypothesentests' in der Forschung? (single choice)",
+      "choices": {
+        "a": "Das systematische Testen von Annahmen durch statistische Verfahren.",
+        "b": "Das zufällige Erstellen von Forschungsfragen.",
+        "c": "Die qualitative Analyse von Daten.",
+        "d": "Die direkte Beobachtung von Verhalten."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Hypothesentests werden verwendet, um Annahmen über Populationen anhand von Stichprobendaten zu überprüfen."
+    },
+    {
+      "id": "31",
+      "question": "Welche Faktoren beeinflussen die externe Validität? (multiple choice)",
+      "choices": {
+        "a": "Repräsentative Stichproben.",
+        "b": "Realitätsnahe Bedingungen.",
+        "c": "Zufällige Fehlerquellen.",
+        "d": "Statistische Signifikanz."
+      },
+      "correct_answers": ["a", "b"],
+      "explanation": "Repräsentative Stichproben und realitätsnahe Bedingungen verbessern die externe Validität."
+    },
+    {
+      "id": "32",
+      "question": "Was versteht man unter einer Längsschnittstudie? (single choice)",
+      "choices": {
+        "a": "Eine Studie, die dieselbe Gruppe über einen längeren Zeitraum hinweg untersucht.",
+        "b": "Eine Studie, die verschiedene Gruppen zu einem Zeitpunkt vergleicht.",
+        "c": "Eine Studie, die ohne Kontrollgruppe durchgeführt wird.",
+        "d": "Eine Studie mit ausschließlich qualitativen Daten."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Längsschnittstudien beobachten dieselben Probanden über längere Zeiträume, um Veränderungen zu analysieren."
+    },
+    {
+      "id": "33",
+      "question": "Welche Vorteile bieten Mixed-Methods-Studien? (multiple choice)",
+      "choices": {
+        "a": "Kombination von qualitativen und quantitativen Daten.",
+        "b": "Erhöhung der Validität durch Triangulation.",
+        "c": "Reduktion des Zeitaufwands.",
+        "d": "Flexibilität in der Datenerhebung."
+      },
+      "correct_answers": ["a", "b", "d"],
+      "explanation": "Mixed-Methods-Studien kombinieren qualitative und quantitative Ansätze, um umfassendere Ergebnisse zu erzielen."
+    },
+    {
+      "id": "34",
+      "question": "Was ist der Unterschied zwischen einer unabhängigen und einer abhängigen Variable? (single choice)",
+      "choices": {
+        "a": "Die unabhängige Variable wird manipuliert, während die abhängige Variable gemessen wird.",
+        "b": "Die abhängige Variable wird manipuliert, während die unabhängige Variable konstant bleibt.",
+        "c": "Beide Variablen sind konstant.",
+        "d": "Beide Variablen werden gemessen."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Die unabhängige Variable wird geändert, um ihre Auswirkungen auf die abhängige Variable zu messen."
+    },
+    {
+      "id": "35",
+      "question": "Welche Rolle spielen Kontrollvariablen in Experimenten? (single choice)",
+      "choices": {
+        "a": "Sie halten potenzielle Störfaktoren konstant.",
+        "b": "Sie werden zufällig generiert.",
+        "c": "Sie beeinflussen die abhängige Variable direkt.",
+        "d": "Sie erhöhen die Stichprobengröße."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Kontrollvariablen werden verwendet, um die Auswirkungen potenzieller Störfaktoren zu minimieren."
+    },
+    {
+      "id": "36",
+      "question": "Was ist eine Quotenstichprobe? (single choice)",
+      "choices": {
+        "a": "Eine Stichprobe, bei der bestimmte Merkmale der Teilnehmer vorab festgelegt werden.",
+        "b": "Eine Stichprobe, die zufällig ausgewählt wird.",
+        "c": "Eine Stichprobe ohne vorherige Planung.",
+        "d": "Eine Stichprobe, die ausschließlich qualitative Daten verwendet."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Quotenstichproben stellen sicher, dass bestimmte Merkmale in der Stichprobe repräsentiert sind."
+    },
+    {
+      "id": "37",
+      "question": "Welche Herausforderungen können bei qualitativer Forschung auftreten? (multiple choice)",
+      "choices": {
+        "a": "Subjektivität der Ergebnisse.",
+        "b": "Schwierige Generalisierbarkeit.",
+        "c": "Komplexe Datenanalyse.",
+        "d": "Hohe statistische Anforderungen."
+      },
+      "correct_answers": ["a", "b", "c"],
+      "explanation": "Qualitative Forschung kann aufgrund ihrer Subjektivität, der schwierigen Generalisierbarkeit und der komplexen Datenanalyse Herausforderungen mit sich bringen."
+    },
+    {
+      "id": "38",
+      "question": "Was ist ein Experiment mit Kontrollgruppen? (single choice)",
+      "choices": {
+        "a": "Ein Experiment, bei dem eine Gruppe nicht der unabhängigen Variable ausgesetzt ist.",
+        "b": "Ein Experiment ohne zufällige Zuweisung.",
+        "c": "Ein Experiment, das nur qualitative Daten verwendet.",
+        "d": "Ein Experiment mit ausschließlich unabhängigen Variablen."
+      },
+      "correct_answers": ["a"],
+      "explanation": "In Experimenten mit Kontrollgruppen dient die Kontrollgruppe als Referenz, die nicht der Manipulation ausgesetzt wird."
+    },
+    {
+      "id": "39",
+      "question": "Was beschreibt die statistische Signifikanz in der Forschung? (single choice)",
+      "choices": {
+        "a": "Die Wahrscheinlichkeit, dass ein Ergebnis nicht durch Zufall zustande gekommen ist.",
+        "b": "Die Anzahl der Teilnehmer in der Stichprobe.",
+        "c": "Die Konsistenz der Ergebnisse.",
+        "d": "Die Generalisierbarkeit der Ergebnisse."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Statistische Signifikanz zeigt an, dass ein Ergebnis wahrscheinlich nicht zufällig ist."
+    },
+    {
+      "id": "40",
+      "question": "Was versteht man unter explorativer Forschung? (single choice)",
+      "choices": {
+        "a": "Die Untersuchung wenig erforschter Themen, um Hypothesen zu generieren.",
+        "b": "Die Prüfung bestehender Hypothesen.",
+        "c": "Die Verwendung von Kontrollgruppen.",
+        "d": "Die ausschließliche Nutzung quantitativer Daten."
+      },
+      "correct_answers": ["a"],
+      "explanation": "Explorative Forschung wird durchgeführt, um neue Hypothesen zu generieren und wenig erforschte Themen zu untersuchen."
+    }
+  ]

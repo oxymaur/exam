@@ -6,7 +6,8 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 from datetime import datetime
 
 # -- CONFIG ----------------------------------------------------------------
-QUESTIONS_FILE = "questions_db.json"
+EA_QUESTIONS_FILE = "questions_db.json"   # Original EA quiz
+AFM_QUESTIONS_FILE = "afm_questions.json" # New AFM quiz
 SCORES_FILE = "scores.json"
 NUM_QUESTIONS = 20  # how many questions to present
 SECRET_KEY = os.urandom(24)  # for session encryption
@@ -15,10 +16,21 @@ app = Flask(__name__)
 app.secret_key = SECRET_KEY
 
 # -- LOAD / SAVE FUNCTIONS ------------------------------------------------
-def load_questions():
-    """Load all questions from the JSON file."""
-    with open(QUESTIONS_FILE, "r", encoding="utf-8") as f:
+
+def load_subject_questions(subject_choice):
+    """
+    Load questions from the appropriate JSON file, based on 'subject_choice'.
+    subject_choice will be 'ea' or 'afm'.
+    """
+    if subject_choice == "afm":
+        filename = AFM_QUESTIONS_FILE
+    else:
+        # default = EA
+        filename = EA_QUESTIONS_FILE
+
+    with open(filename, "r", encoding="utf-8") as f:
         all_qs = json.load(f)
+
     return all_qs
 
 def load_scores():
@@ -40,8 +52,14 @@ def save_scores(scores_list):
 
 @app.route("/")
 def index():
-    """Landing page: user enters name, see top 5 scores."""
+    """
+    Landing page: 
+    1) User enters name 
+    2) Selects subject (EA or AFM)
+    3) Sees top 5 scores from any quiz attempts
+    """
     scores_data = load_scores()
+    # Sort descending by score
     scores_data.sort(key=lambda x: x["score"], reverse=True)
     top_5 = scores_data[:5]
 
@@ -50,16 +68,22 @@ def index():
 
 @app.route("/start_quiz", methods=["POST"])
 def start_quiz():
-    """Initialize the quiz session after user enters name."""
+    """Initialize the quiz session after user enters name & subject."""
     username = request.form.get("username", "").strip()
+    subject = request.form.get("subject", "ea")  # "ea" or "afm"
+
     if not username:
         flash("Please enter your name.")
         return redirect(url_for("index"))
 
+    # Store user info in session
     session["username"] = username
+    session["subject"] = subject
 
-    # Load all questions and select some random subset
-    all_questions = load_questions()
+    # Load all questions for chosen subject
+    all_questions = load_subject_questions(subject)
+
+    # Select random subset if more questions than NUM_QUESTIONS
     if len(all_questions) <= NUM_QUESTIONS:
         selected = all_questions
     else:
@@ -76,7 +100,10 @@ def start_quiz():
 
 @app.route("/quiz", methods=["GET", "POST"])
 def quiz_question():
-    """Show the current question, handle answer submission, and show feedback."""
+    """
+    Show the current question, handle answer submission, 
+    and show immediate feedback (Correct/Incorrect + explanation).
+    """
     if "questions" not in session or "current_index" not in session:
         flash("No quiz session found. Please start again.")
         return redirect(url_for("index"))
@@ -92,7 +119,6 @@ def quiz_question():
     question_data = questions[current_index]
 
     # We'll store feedback to show user whether they're correct or not
-    # 'feedback' can be {"submitted": True/False, "is_correct": bool, "explanation": "..."}
     feedback = {
         "submitted": False,
         "is_correct": False,
@@ -134,7 +160,7 @@ def quiz_question():
 
 @app.route("/results")
 def quiz_results():
-    """Show final results and store in scores.json."""
+    """Show final results and store them in scores.json."""
     if "username" not in session:
         flash("No username in session. Start again.")
         return redirect(url_for("index"))
@@ -155,14 +181,18 @@ def quiz_results():
     scores_data.append(new_entry)
     save_scores(scores_data)
 
-    # best score
+    # best score so far
     best_score = max(item["score"] for item in scores_data) if scores_data else percent
 
     # Clear session so user can start again if desired
     session.clear()
 
-    return render_template("results.html", username=username, score=score,
-                           total=total, percent=percent, best_score=best_score)
+    return render_template("results.html", 
+                           username=username, 
+                           score=score,
+                           total=total, 
+                           percent=percent, 
+                           best_score=best_score)
 
 
 if __name__ == "__main__":
